@@ -2,9 +2,17 @@
 
 ---
 
+{% youtube https://youtu.be/wyaoy8uB3aE %}
+
+---
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xvtbfxzd78z8gez69vjt.PNG)
+
+---
+
 - AudiPlay Version 1 - [Documentation](https://www.youtube.com/watch?v=L5gFnaTItmE&feature=emb_imp_woyt) | [GitHub](https://github.com/SH20RAJ/AudiPlay/)
 
-- AudiPlay Version 2 - [Documentation]() | [GitHub](https://github.com/SH20RAJ/AudiPlayV2/)
+- AudiPlay Version 2 - [Documentation](https://youtu.be/wyaoy8uB3aE) | [GitHub](https://github.com/SH20RAJ/AudiPlayV2/)
 
 ---
 
@@ -223,6 +231,37 @@
 ```
 
 And so you've got the player
+
+---
+
+## Customization
+
+1. For Adding Volume Bar
+
+Add this Css
+```css
+#mute-icon {
+          margin: 0 2.5%;
+      }
+```
+
+2. For changing icons color
+
+Add this css
+```css
+path {
+     stroke: red;
+ }
+```
+
+3. For Resizing player width
+
+Add this css
+```css
+#volume-slider {
+        width: 58%;
+  }
+```
 
 ---
 
