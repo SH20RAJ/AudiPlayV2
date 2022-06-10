@@ -2,9 +2,9 @@
 
 ---
 
-- [AudiPlay Version 1](https://www.youtube.com/watch?v=L5gFnaTItmE&feature=emb_imp_woyt)
+- AudiPlay Version 1 - [Documentation](https://www.youtube.com/watch?v=L5gFnaTItmE&feature=emb_imp_woyt) | [GitHub](https://github.com/SH20RAJ/AudiPlay/)
 
-- AudiPlay Version 2
+- AudiPlay Version 2 - [Documentation]() | [GitHub](https://github.com/SH20RAJ/AudiPlayV2/)
 
 ---
 
@@ -213,13 +213,13 @@
 2. Add JavaScript CDN just before ending `</body>` Tag.
 
 ```html
-<script type="module" src="./audiplayv2.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/SH20RAJ/AudiPlayV2@main/audiplayv2.js"></script>
 ```
 
-3. Add Audio Component where you want to show your audio player
+3. Add Audio Component where you want to show your audio player. (You can use multiple Audio Tags)
 
 ```html
-<audio-player data-src="https://assets.codepen.io/4358584/Anitek_-_Komorebi.mp3"></audio-player>
+<audio-player data-src="https://github.com/SH20RAJ/AudiPlay/raw/main/Ark.mp3"></audio-player>
 ```
 
 And so you've got the player

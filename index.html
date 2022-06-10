@@ -2,9 +2,10 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - audio player using web components</title>
+  <title>AudiPlayV2 - Customizable HTML5 Audio Player with Template</title>
+  <link rel="icon" href="https://github.com/SH20RAJ/AudiPlay/raw/main/svg/loop.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
   
-
 </head>
 <body>
 <!-- Customizable template of Audio Player -->
@@ -196,16 +197,37 @@
         </div>
     </template>
 
-
+<div class="container" >
+  <br>
+  <br><br>
+  <h2> See Demo - (Multiple Audio Player Support)</h2>
+  <br>
   <!--Audio Tags-->
-    <audio-player data-src="https://assets.codepen.io/4358584/Anitek_-_Komorebi.mp3"></audio-player>
-<hr>
+    <audio-player data-src="https://github.com/SH20RAJ/AudiPlay/raw/main/Ark.mp3"></audio-player>
 
 <audio-player data-src="https://assets.codepen.io/4358584/Anitek_-_Komorebi.mp3"></audio-player>
 
+  <br><br>
+</div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+<div class="container" id="mypost"></div>
+<script>
+fetch('README.md').then(response => response.text())
+  .then(data => {
+  console.log(data);
+  var converter = new showdown.Converter();
+var md = data;
+var html = converter.makeHtml(md);
+  document.querySelector('#mypost').innerHTML = html;
+});
+</script>
+  
   
 <!-- JS CDN -->
-  <script type="module" src="./audiplayv2.js"></script>
+  <script type="module" src="audiplayv2.js"></script>
+  
 Special Thanks to <a href="https://css-tricks.com/lets-create-a-custom-audio-player/">Css Tricks</a>
 </body>
 </html>
