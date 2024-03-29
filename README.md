@@ -2,7 +2,7 @@
 
 ---
 
-{% youtube https://youtu.be/wyaoy8uB3aE %} [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FAudiPlayv2&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FAudiPlayv2)
+{% youtube https://youtu.be/wyaoy8uB3aE %} [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FAudiPlayv2&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FSH20RAJ%2FAudiPlayv2) [![](https://data.jsdelivr.com/v1/package/gh/SH20RAJ/AudiPlayV2/badge)](https://www.jsdelivr.com/package/gh/SH20RAJ/AudiPlayV2)
 
 ---
 
